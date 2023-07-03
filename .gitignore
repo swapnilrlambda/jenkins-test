@@ -1,0 +1,6 @@
+*.yml
+.updatedhyperexecute.yaml
+*.log
+hyperexecuteupdate
+*.md
+/images/

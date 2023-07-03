@@ -1,0 +1,229 @@
+{
+    "id": "b4713893-8dbc-49fb-bcb2-9c8ec587b01c",
+    "created_at": "2023-04-11T14:04:17Z",
+    "update_at": "2023-04-11T14:06:59Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2023-04-11T14:05:01Z",
+    "end_time": "2023-04-11T14:06:59Z",
+    "summary": {
+        "total_time": 118000000000,
+        "execution_time": 118000000000,
+        "total_tasks": 3,
+        "build_time_consumed": 318000000000,
+        "jobTestExecutionTime": "42s",
+        "failed_tasks": 0,
+        "total_stage_info": {
+            "postrun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            },
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            },
+            "scenario": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            }
+        },
+        "status": "completed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b4713893-8dbc-49fb-bcb2-9c8ec587b01c"
+    },
+    "tasks": [
+        {
+            "id": "0cad9aad-7039-4441-a950-da07dca49c3d",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-04-11T14:05:00Z",
+            "update_at": "2023-04-11T14:06:23Z",
+            "start_time": "2023-04-11T14:05:01Z",
+            "end_time": "2023-04-11T14:06:23Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "b66dec95-e6ad-430e-ade3-33b937ce6b1c",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-04-11T14:05:30Z",
+                    "started_at": "2023-04-11T14:05:31Z",
+                    "updated_at": "2023-04-11T14:05:52Z",
+                    "order": 2
+                },
+                {
+                    "id": "f3145cc3-ebb9-4b89-b59e-218ecd12615c",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2023-04-11T14:05:54Z",
+                    "started_at": "2023-04-11T14:05:56Z",
+                    "updated_at": "2023-04-11T14:05:57Z",
+                    "order": 3
+                },
+                {
+                    "id": "4b7dd4a9-6e14-4265-962c-5ac9ce6f49af",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "PlaywrightTestonIPad.cs",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-04-11T14:05:59Z",
+                    "started_at": "2023-04-11T14:06:01Z",
+                    "updated_at": "2023-04-11T14:06:16Z",
+                    "order": 4
+                },
+                {
+                    "id": "a1dd2021-c535-4d6f-9dbd-dfe943bb8eac",
+                    "type": "postrun",
+                    "status": "completed",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "post.log",
+                    "created_at": "2023-04-11T14:05:59Z",
+                    "started_at": "2023-04-11T14:06:20Z",
+                    "updated_at": "2023-04-11T14:06:21Z",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "id": "1b1c6e98-d3a5-4ed3-ab3c-0938bbb0a6a1",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-04-11T14:05:00Z",
+            "update_at": "2023-04-11T14:06:59Z",
+            "start_time": "2023-04-11T14:05:01Z",
+            "end_time": "2023-04-11T14:06:59Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "22058e3d-92fd-48ba-aa7e-d2b8cfe7c319",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-04-11T14:05:58Z",
+                    "started_at": "2023-04-11T14:05:59Z",
+                    "updated_at": "2023-04-11T14:06:23Z",
+                    "order": 2
+                },
+                {
+                    "id": "324f29d0-8bf1-474a-aeb5-48928c340c77",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2023-04-11T14:06:24Z",
+                    "started_at": "2023-04-11T14:06:25Z",
+                    "updated_at": "2023-04-11T14:06:27Z",
+                    "order": 3
+                },
+                {
+                    "id": "7ce8e6c0-9a7e-453a-aca2-8d76ed0aff32",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "PlaywrightTestonIPhone.cs",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-04-11T14:06:29Z",
+                    "started_at": "2023-04-11T14:06:31Z",
+                    "updated_at": "2023-04-11T14:06:53Z",
+                    "order": 4
+                },
+                {
+                    "id": "4ec478c3-1c3f-4c3b-bdb7-d8ff73df3e22",
+                    "type": "postrun",
+                    "status": "completed",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "post.log",
+                    "created_at": "2023-04-11T14:06:29Z",
+                    "started_at": "2023-04-11T14:06:56Z",
+                    "updated_at": "2023-04-11T14:06:57Z",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "id": "df54186b-2976-41dc-af74-f80e2011360f",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-04-11T14:05:00Z",
+            "update_at": "2023-04-11T14:06:59Z",
+            "start_time": "2023-04-11T14:05:01Z",
+            "end_time": "2023-04-11T14:06:59Z",
+            "group_number": 3,
+            "stages": [
+                {
+                    "id": "9014a73a-e746-4bed-b735-bf8ab0ecbd07",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-04-11T14:05:59Z",
+                    "started_at": "2023-04-11T14:06:00Z",
+                    "updated_at": "2023-04-11T14:06:23Z",
+                    "order": 2
+                },
+                {
+                    "id": "904a04a2-f154-4016-83b3-f073f0d2a019",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2023-04-11T14:06:25Z",
+                    "started_at": "2023-04-11T14:06:26Z",
+                    "updated_at": "2023-04-11T14:06:28Z",
+                    "order": 3
+                },
+                {
+                    "id": "87a8cc3c-be92-4ec9-a3c3-68eccbf0b689",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "PlaywrightTestSingle.cs",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-04-11T14:06:30Z",
+                    "started_at": "2023-04-11T14:06:32Z",
+                    "updated_at": "2023-04-11T14:06:53Z",
+                    "order": 4
+                },
+                {
+                    "id": "efb7a1ae-a6e7-4262-9680-8fbe3eae4a28",
+                    "type": "postrun",
+                    "status": "completed",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "post.log",
+                    "created_at": "2023-04-11T14:06:30Z",
+                    "started_at": "2023-04-11T14:06:56Z",
+                    "updated_at": "2023-04-11T14:06:57Z",
+                    "order": 5
+                }
+            ]
+        }
+    ]
+}
